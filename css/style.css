@@ -18,6 +18,7 @@
 	height: calc(100vh - 160px);
 	width: 100%;
 	background: #e6db74;
+	margin-bottom: 80px;
 
 }
 .background:hover .right-part {
@@ -84,7 +85,203 @@ li {
 	opacity: 0.6;
 	transition: 2s;
 }
-/*.btn-menu:hover {
-	transform: scale(1.5);
-	opacity: 1;
-}*/
+.background-2nd {
+	height: calc(100vh - 160px);
+	width: 100%;
+	background: #e6db74;
+}
+.content {
+	font-family: Roboto;
+	padding-left: 160px;
+	width: auto;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.line-red {
+	color: #f92672;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+.line-bold {
+	font-size: 32px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.line-regular {
+	font-size: 32px;
+	color: #272822;
+}
+.parallax {
+	background-image: url(img/1.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .skills {
+ 		background: #f5f5f5;
+ }
+ .h1-skills {
+ 	font-family: Roboto;
+  font-size: 80px;
+  font-weight: 900;
+  color: #272822;
+  text-transform: uppercase;
+  padding: 80px 80px 0;
+ }
+ .ul-skills {
+ 	padding-left: 80px;
+ }
+ .li-skills {
+ 	margin: 32px 0;
+ 	font-family: Roboto;
+  font-size: 32px;
+ }
+ .point-skills {
+ 	 background: #f92672;
+ 	 width: calc(100vh - 30px);
+ 	 height: 20px;
+ 	 border-radius: 10px;
+ 	 margin: 8px 0;
+ }
+ /* .point-skills:hover {
+ 	 background: #f92672;
+ 	 width: calc(100vh - 30px);
+ 	 height: 20px;
+ 	 border-radius: 10px;
+ 	 margin: 8px 0;
+ }*/
+ .ul-point {
+ 	 padding: 0 30px;
+ 	 display: flex;
+ 	 flex-direction: column;
+ 	 justify-content: space-evenly;
+ }
+ .ul-rules {
+ 	 display: flex;
+ }
+ .html, .resp, .git, .js {
+    background: #ccc;
+    border: 2px solid #f92672; 
+    border-radius: 10px;
+    height: 20px; 
+    position: relative;
+   }
+   .html::before, .resp::before, .git::before, .js::before{
+    animation: html 5s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    content: '';
+    position: absolute;
+    height: 100%; 
+    background: #f92672;
+    border-radius: 10px;
+   }
+   .resp::before {
+    animation: resp 5s;
+    animation-fill-mode: forwards;
+  }
+   .git::before {
+    animation: git 5s;
+    animation-fill-mode: forwards;
+  }
+   .js::before {
+    animation: js 5s;
+    animation-fill-mode: forwards;
+  }
+   @keyframes html {
+    from { width: 0; }
+    to { width: 90%; }
+   }
+   @keyframes resp {
+    from { width: 0; }
+    to { width: 80%; }
+   }
+   @keyframes git {
+    from { width: 0; }
+    to { width: 30%; }
+   }
+   @keyframes js {
+    from { width: 0; }
+    to { width: 10%; }
+   }
+   .projects-img {
+   	 background-image: url(img/2.png);
+   }
+   .pro {
+   	 background: #353535;
+   }
+   .h1-pro {
+   	 color: #e6db74;
+   	 font-size: 80px;
+   	 font-family: Roboto;
+   	 text-transform: uppercase;
+   	 font-weight: 900;
+   	 padding: 80px 80px 0 80px;
+   }
+   .h2-pro {
+   	 font-size: 32px;
+   	 color: #fff;
+   	 font-weight: bold;
+   }
+   .p-pro {
+   	 color: #f5f5f5;
+   	 font-size:  32px;
+   	 margin-top: 1em;
+   	 margin-bottom: 16px;
+   }
+   .link-pro {
+   	 color: #f92672;
+   	 font-size: 18px;
+   	 font-style: italic;
+   	 text-decoration: none;
+   	 margin-bottom: 1em;
+   }
+   .space {
+   	 padding: 80px 80px 0 80px;
+   }
+   .exp {
+   	 background: #f5f5f5;
+   }
+   .h1-exp {
+   	 color: #272822;
+   }
+   .h2-exp {
+   	 font-size: 32px;
+   	 color: #000;
+   	 font-weight: bold;
+   }
+   .p-exp {
+   	 color: #272822;
+   	 margin-top: 0;
+   }
+   .phone {
+   	 font-size: 18px;
+   	 color: #000;
+   	 font-family: Roboto;
+   }
+   .footer {
+   	 display: flex;
+   	 justify-content: space-between;
+   	 align-items: center;
+   }
+   .open {
+       /*display: none;*/
+   	 left: 0;
+       padding: 80px;
+   }
+   .a-open {
+       text-decoration: none;
+   }
+   .li-open {
+      margin: 32px 0 0;
+   }
+   .li-pnone {
+      padding: 80px 0;
+   }
