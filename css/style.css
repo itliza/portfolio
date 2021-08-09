@@ -21,9 +21,31 @@
 	margin-bottom: 80px;
 
 }
+.text-chage {
+   opacity: 0;
+   font-family: Roboto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: left;
+   z-index: 1;
+   transform: translate(-50%, -50%);
+}
 .background:hover .right-part {
 	background: #e6db74;
 	transition: 5s ease;
+}
+.background:hover .text {
+   color:  transparent;
+   transition: 5s ease;
+}
+.background:hover .text-chage {
+   opacity: 1;
+   transition: 5s ease;
+   transition-delay: 5s;
+}
+.background .content {
+   opacity: 0;
 }
 .right-part {
 	background: #f5f5f5;
@@ -216,6 +238,7 @@ li {
    }
    .pro {
    	 background: #353535;
+       height: 100vh;
    }
    .h1-pro {
    	 color: #e6db74;
@@ -248,6 +271,7 @@ li {
    }
    .exp {
    	 background: #f5f5f5;
+       height: 100vh;
    }
    .h1-exp {
    	 color: #272822;
