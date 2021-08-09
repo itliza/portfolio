@@ -25,11 +25,10 @@
    opacity: 0;
    font-family: Roboto;
    position: absolute;
-   top: 50%;
-   left: 50%;
-   /*text-align: left;*/
+   top: 40%;
+   left: 240px;
+   padding-right: 80px;
    z-index: 1;
-   transform: translate(-50%, -50%);
 }
 .background:hover .right-part {
 	background: #e6db74;
@@ -150,92 +149,78 @@ li {
  }
  .skills {
  		background: #f5f5f5;
+      padding: 0 80px;
  }
- .h1-skills {
- 	font-family: Roboto;
+.h1-skills {
+   font-family: Roboto;
   font-size: 80px;
   font-weight: 900;
   color: #272822;
   text-transform: uppercase;
-  padding: 80px 80px 0;
+  padding: 80px 0;
  }
- .ul-skills {
- 	padding-left: 80px;
- }
- .li-skills {
- 	margin: 32px 0;
- 	font-family: Roboto;
+.html-text, .resp-text, .git-text, .js-text {
+  font-family: Roboto;
   font-size: 32px;
- }
- .point-skills {
- 	 background: #f92672;
- 	 width: calc(100vh - 30px);
- 	 height: 20px;
- 	 border-radius: 10px;
- 	 margin: 8px 0;
- }
- /* .point-skills:hover {
- 	 background: #f92672;
- 	 width: calc(100vh - 30px);
- 	 height: 20px;
- 	 border-radius: 10px;
- 	 margin: 8px 0;
- }*/
- .ul-point {
- 	 padding: 0 30px;
- 	 display: flex;
- 	 flex-direction: column;
- 	 justify-content: space-evenly;
- }
- .ul-rules {
- 	 display: flex;
- }
- .html, .resp, .git, .js {
-    background: #ccc;
-    border: 2px solid #f92672; 
-    border-radius: 10px;
-    height: 20px; 
-    position: relative;
-   }
-   .html::before, .resp::before, .git::before, .js::before{
-    animation: html 5s;
+  flex: 0 0 300px;
+}
+.back {
+  display: block;
+  width: 100%;
+  background: #ccc;
+  border: 2px solid #f92672; 
+  border-radius: 10px;
+  height: 20px; 
+  position: relative;
+}
+.string {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 32px;
+}
+.back::before {
     animation-timing-function: linear;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
     content: '';
     position: absolute;
     height: 100%; 
     background: #f92672;
     border-radius: 10px;
-   }
-   .resp::before {
-    animation: resp 5s;
+}
+  .html-skill::before {
+    animation: html-skill 5s;
+    animation-fill-mode: forwards;
+}
+ .resp-skill::before {
+    animation: resp-skill 5s;
     animation-fill-mode: forwards;
   }
-   .git::before {
-    animation: git 5s;
+.git-skill::before {
+    animation: git-skill 5s;
     animation-fill-mode: forwards;
   }
-   .js::before {
-    animation: js 5s;
+.js-skill::before {
+    animation: js-skill 5s;
     animation-fill-mode: forwards;
   }
-   @keyframes html {
+@keyframes html-skill {
     from { width: 0; }
     to { width: 90%; }
    }
-   @keyframes resp {
+   @keyframes resp-skill {
     from { width: 0; }
     to { width: 80%; }
    }
-   @keyframes git {
+   @keyframes git-skill {
     from { width: 0; }
     to { width: 30%; }
    }
-   @keyframes js {
+   @keyframes js-skill {
     from { width: 0; }
     to { width: 10%; }
    }
+
    .projects-img {
    	 background-image: url(img/2.png);
    }
