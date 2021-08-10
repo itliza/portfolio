@@ -15,10 +15,9 @@
    display: flex;
 }
 .background {
-   min-height: calc(100vh - 160px);
+   height: calc(100vh - 160px);
    width: 100%;
    background: #e6db74;
-   margin-bottom: 80px;
    display: flex;
    align-items: center;
    position: relative;
@@ -45,16 +44,16 @@
 }
 .background:hover .right-part {
    background: #e6db74;
-   transition: 5s ease;
+   transition: 1.5s ease;
 }
 .background:hover .text {
    color:  transparent;
-   transition: 5s ease;
+   transition: 1.5s ease;
 }
 .background:hover .text-change {
    opacity: 1;
-   transition: 5s ease;
-   transition-delay: 5s;
+   transition: 1.5s ease;
+   transition-delay: 1.5s;
 }
 .background .content {
    opacity: 0;
@@ -62,7 +61,7 @@
 .right-part {
    background: #f5f5f5;
    width: 50%;
-   min-height: calc(100vh - 160px);
+   height: calc(100vh - 160px);
    position: absolute;
    left: 50%;
    z-index: 1;
@@ -78,9 +77,6 @@
 li {
    list-style-type: none;
 }
-/** svg {
-   fill:  yellow;
-}*/
 .sidebar {
    display: flex;
    position: fixed;
@@ -108,17 +104,6 @@ li {
    top: 47%;
    left: 40px;
 }
-.background-2nd {
-   height: calc(100vh - 160px);
-   width: 100%;
-   background: #e6db74;
-   display: flex;
-   align-items: center;
-}
-.content {
-   font-family: Roboto;
-   padding: 80px 80px 80px 160px;
-}
 .line-red {
    color: #f92672;
    font-size: 18px;
@@ -145,17 +130,16 @@ li {
  }
  .skills {
    background: #f5f5f5;
-   padding: 0 80px;
-   height: calc(100vh - 160px);
+   padding: 80px;
+   min-height: calc(100vh - 160px);
    width: 100%;
-   margin-bottom: 80px;
  }
 .h1-skills {
   font-size: 80px;
   font-weight: 900;
   color: #272822;
   text-transform: uppercase;
-  padding: 80px 0;
+  padding: 0 0 80px 0;
  }
 .html-text, .resp-text, .git-text, .js-text {
   font-size: 32px;
@@ -222,16 +206,16 @@ li {
 }
 .pro {
    background: #353535;
-   height: 100vh;
+   min-height: 100vh;
    width: 100%;
-   margin-bottom: 80px;
+   padding: 80px;
 }
 .h1-pro {
    color: #e6db74;
    font-size: 80px;
    text-transform: uppercase;
    font-weight: 900;
-   padding: 80px 80px 0 80px;
+   padding: 0 0 80px 0;
 }
 .h2-pro {
    font-size: 32px;
@@ -252,13 +236,12 @@ li {
    margin-bottom: 1em;
 }
 .space {
-   padding: 80px 80px 0 80px;
+   padding: 80px 0;
 }
 .exp {
    background: #f5f5f5;
-   height: 100vh;
+   min-height: 100vh;
    width: 100%;
-   margin-bottom: 80px;
 }
 .h1-exp {
    color: #272822;
