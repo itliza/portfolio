@@ -17,7 +17,8 @@
 .background {
    height: calc(100vh - 160px);
    /*width: 100%;*/
-   background: #e6db74;
+   /*background: #e6db74;*/
+   background: linear-gradient(to right, #e6db74 50%, #f5f5f5 50%);
    display: flex;
    align-items: center;
    position: relative;
@@ -28,6 +29,9 @@
    text-align: center;
    z-index: 2;
    padding: 80px;
+   animation-name: main-text-move;
+   animation-duration: 3s;
+   opacity: 0;
 }
 .text-change {
    opacity: 0;
@@ -36,31 +40,53 @@
    top:  0;
    left: 0;
    z-index: 5;
+   animation-name: text-change-move;
+   animation-duration: 5s;
+   animation-delay: 3s;
+   animation-fill-mode: forwards;
 }
-.background:hover .right-part {
+.background::before {
+    animation: progress 3s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 100%; 
+    background: #e6db74;
+}
+@keyframes progress {
+    from { width: 0; }
+    to { width: 100%; }
+   }
+@keyframes main-text-move {
+    100% {opacity: 1;}
+}
+@keyframes text-change-move {
+  100% {opacity: 1}
+}
+/*.background:hover .right-part {
    background: #e6db74;
-   transition: 1.5s ease;
-}
-.background:hover .title {
+   transition: 2s ease;
+   transform: scale(0.1) rotate(1turn);
+}*/
+/*.background:hover .title {
    color:  transparent;
    transition: 1.5s ease;
-}
-.background:hover .text-change {
+}*/
+/*.background:hover .text-change {
    opacity: 1;
    transition: 1.5s ease;
    transition-delay: 1.5s;
-}
-.background .content {
-   opacity: 0;
-}
-.right-part {
+}*/
+/*.right-part {
    background: #f5f5f5;
    width: 50%;
    height: calc(100vh - 160px);
    position: absolute;
    left: 50%;
    z-index: 1;
-}
+}*/
 .menu {
    position: fixed;
    display: flex;
@@ -100,7 +126,7 @@ li {
    left: 40px;
 }
 .parallax {
-   background-image: url(img/1.jpg);
+   background-image: url(../img/1.jpg);
    height: 100vh;
    background-attachment: fixed;
    background-position: center;
@@ -169,7 +195,7 @@ li {
    to { width: 10%; }
 }
 .projects-img {
-   background-image: url(img/2.png);
+   background-image: url(../img/2.png);
 }
 .primary-background {
    background: #f5f5f5;
@@ -216,10 +242,6 @@ li {
 }
 .gap {
   padding: 80px 0 0 0;
-}
-.phone {
-   font-size: 18px;
-   color: #000;
 }
 .footer {
    display: flex;
