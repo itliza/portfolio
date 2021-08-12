@@ -92,6 +92,18 @@ li {
    position: fixed;
    top: 47%;
    left: 40px;
+   transform: rotate(0.75turn);
+   cursor: pointer;
+}
+.btn-open {
+   animation-name: blinker;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 3s;
+}
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.3; }
 }
 .btn-close {
    display: none;
@@ -236,4 +248,13 @@ li {
 }
 #info {
   display: none;
+}
+.arrow {
+   transform: rotate(180deg);
+}
+.up {
+   position: fixed;
+   bottom: 5%;
+   right: 4%;
+   opacity: 0.7;
 }
