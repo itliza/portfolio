@@ -1,0 +1,46 @@
+
+.background {
+   background: linear-gradient(to right, #e6db74 50%, #f5f5f5 50%);
+}
+.back {
+   background: #ccc;
+}
+.background::before {
+    background: #e6db74;
+   }
+.back::before {
+   background: #f92672;
+}
+.parallax {
+   background-image: url(../img/1.jpg);
+ }
+.primary-background {
+   background: #f5f5f5;
+}
+.secondary-background {
+   background: #353535;
+}
+.title {
+   color: #272822;
+}
+.title-color {
+  color: #e6db74
+}
+.name {
+   color: #000;
+}
+.text-block {
+   color: #272822;
+}
+.italics {
+   color: #000;
+}
+.primary-color {
+  color: #f92672;
+}
+.color-text {
+  color: #f5f5f5;
+}
+.menu-open {
+   background: #f5f5f5;
+}
