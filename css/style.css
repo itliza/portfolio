@@ -95,7 +95,7 @@ li {
    transform: rotate(0.75turn);
    cursor: pointer;
 }
-.btn-open {
+.btn-open, .up {
    animation-name: blinker;
    animation-iteration-count: infinite;
    animation-timing-function: linear;
