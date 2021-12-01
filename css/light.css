@@ -20,6 +20,9 @@
 .secondary-background {
    background: #353535;
 }
+.projects-img {
+   background-image: url(../img/2.png);
+}
 .title {
    color: #272822;
 }
