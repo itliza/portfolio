@@ -1,5 +1,5 @@
 function toggleMenu() {
-  var menuInfo = document.getElementById('info');    
+  let menuInfo = document.getElementById('info');    
   if(menuInfo.style.display == "none") { // if is menuInfo displayed, hide it
     menuInfo.style.display = "block";
   }
