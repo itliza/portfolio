@@ -337,8 +337,70 @@ and (max-width: 540px) {
 .wrapper {
       padding: 20px;
    }
+.primary-background {
+      /*height: 100vh;*/
+      padding: 40px;
+   }
 .background {
-      min-height: calc(100vh - 40px);
+   height: calc(100vh - 80px);
+}
+.primary-background {
+   height: calc(100vh - 80px);
+
+}
+.header {
+   height: 40px;
+   padding: 0 20px;
+}
+.parallax{
+      display: none;
+   }
+.sidebar {
+   display: none;
+}
+.title {
+   font-size: 40px;
+   padding: 0 0 40px 0;
+}
+.skill {
+  font-size: 18px;
+}
+.name {
+   font-size: 18px;
+   }
+.text-block {
+   font-size:  18px;
+}
+.italics {
+   font-size: 14px;
+   }
+.gap {
+  padding: 40px 0 0 0;
+}
+.text-change {
+   padding: 40px 40px 40px 80px;
+}
+.theme {
+   width: 40px;
+   height: 40px;
+}
+.footer {
+   padding: 0 20px;
+   background: #fff;
+   height: 40px;
+}
+.btn-open {
+   display: none;
+}
+/*.primary-background {*/
+      /*height: 100vh;*/
+      /*padding: 80px;
+   }
+.background {
+      height: calc(100vh - 40px);
+   }
+.menu-open {
+      height: calc(100vh - 160px);
    }
 .parallax{
       display: none;
@@ -350,5 +412,5 @@ and (max-width: 540px) {
       transform: rotate(0turn);
       cursor: pointer;
       font-size: 20px;
-   }
+   }*/
 }
