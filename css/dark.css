@@ -1,7 +1,7 @@
 * svg {
    fill: #87C232;
 }
-.wrapper {
+.wrapper, .header, .footer {
    background: #222629;
 }
 .background {
