@@ -103,7 +103,7 @@ li {
    cursor: pointer;
    font-size: 18px;
 }
-.btn-open, .up {
+.btn-open {
    animation-name: blinker;
    animation-iteration-count: infinite;
    animation-timing-function: linear;
