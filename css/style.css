@@ -116,9 +116,6 @@ li {
 .btn-close {
    display: none;
 }
-.theme-button {
-   -webkit-animation: spin 4s infinite linear;
-}
 .toggle-container {
    position: fixed;
    top: 0;
@@ -402,7 +399,7 @@ and (max-width: 540px) {
    height: calc(100vh - 60px);
 }
 .primary-background {
-   height: calc(100vh - 80px);
+   height: calc(100vh - 60px);
 
 }
 .header {
@@ -468,7 +465,6 @@ and (max-width: 540px) {
 }
 .back {
    margin-top: 10px;
-  height: 15px; 
-
+   height: 15px; 
 }
 }
