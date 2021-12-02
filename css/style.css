@@ -399,10 +399,10 @@ and (max-width: 540px) {
       padding: 40px;
    }
 .background {
-   height: calc(100vh - 80px);
+   height: calc(100vh - 60px);
 }
 .primary-background {
-   height: calc(100vh - 80px);
+   height: calc(100vh - 60px);
 
 }
 .header {
@@ -449,25 +449,16 @@ and (max-width: 540px) {
 .btn-open {
    display: none;
 }
-/*.primary-background {*/
-      /*height: 100vh;*/
-      /*padding: 80px;
-   }
-.background {
-      height: calc(100vh - 40px);
-   }
-.menu-open {
-      height: calc(100vh - 160px);
-   }
-.parallax{
-      display: none;
-   }
-.btn-open {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: rotate(0turn);
-      cursor: pointer;
-      font-size: 20px;
-   }*/
+.toggle-container {
+   top: 0;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+}
+.up {
+   bottom: 40px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+}
 }
