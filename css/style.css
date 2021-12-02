@@ -171,11 +171,11 @@ li {
    border-radius: 10px;
 }
 .html-skill::before {
-   animation: html-skill 5s;
+   /*animation: html-skill 5s;*/
    animation-fill-mode: forwards;
 }
 .resp-skill::before {
-   animation: resp-skill 5s;
+   /*animation: resp-skill 5s;*/
    animation-fill-mode: forwards;
   }
 .git-skill::before {
@@ -454,11 +454,21 @@ and (max-width: 540px) {
    right: 20px;
    width: 40px;
    height: 40px;
-}
+   }
 .up {
    bottom: 40px;
    right: 20px;
    width: 40px;
    height: 40px;
+   }
+.string {
+  flex-wrap: wrap;
+  margin: 0 0 16px;
+
+}
+.back {
+   margin-top: 10px;
+  height: 15px; 
+
 }
 }
