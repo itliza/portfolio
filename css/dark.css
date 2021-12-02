@@ -56,3 +56,17 @@ svg * {
 .btn-open, .logo {
    color: #87C232;
 }
+
+/* mobile */
+
+@media only screen
+
+and (min-width: 0)
+
+and (max-width: 767px) {
+   .sidebar svg *{
+      fill: #618930;
+   }
+}
+
+
