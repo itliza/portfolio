@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Liza Romaniuk Portfolio</title>
-        <meta charset = "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/light.css" id="theme-link">
-    </head>
-    <body>
-        <div class="wrapper" id="wrapper">
-          <header class="header">
-              <div class="logo italics">Liza Romaniuk</div>
-              <div class="toggle-container">
-                  <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
-              </div>
-          </header>
-          <section class="section" id="up">
-            <div class="background">
-                 <div id="info" class="menu-open">
-                    <ul>
-                      <li class="li-open"><a class="name a-open" href="#skills">Skills</a></li>
-                      <li class="li-open"><a class="name a-open" href="#projects">Projects</a></li>
-                      <li class="li-open"><a class="name a-open" href="#education">Education</a></li>
-                    </ul>
-                    <div class="gap"><a class="italics" href="tel:+380993124627">+38(099)-312-46-27</a></div>
-                    <div>
-                  <p class="italics gap primary-color">For hiring, please</p>
-                  <a class="name" href="mailto:elizaveta.romaniuk@gmail.com">email me</a></div>
-              </div>
-               <div class="main-text">
-            <span class="title">Front-End Developer</span>
-            <!-- <h2 class="name">with eager to learning</h2> -->
-            <p class="italics primary-color">with enthusiasm for learning!</p>
+
+<head>
+  <title>Liza Romaniuk Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/light.css" id="theme-link">
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header class="header">
+      <div class="logo italics">Liza Romaniuk</div>
+      <div class="toggle-container">
+        <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+      </div>
+    </header>
+    <section class="section" id="up">
+      <div class="background">
+        <div id="info" class="menu-open">
+          <ul>
+            <li class="li-open"><a class="name a-open" href="#skills">Skills</a></li>
+            <li class="li-open"><a class="name a-open" href="#projects">Projects</a></li>
+            <li class="li-open"><a class="name a-open" href="#education">Education</a></li>
+          </ul>
+          <div class="gap"><a class="italics" href="tel:+380993124627">+38(099)-312-46-27</a></div>
+          <div>
+            <p class="italics gap primary-color">For hiring, please</p>
+            <a class="name" href="mailto:elizaveta.romaniuk@gmail.com">email me</a>
+          </div>
+        </div>
+        <div class="main-text">
+          <span class="title">Front-End Developer</span>
+          <p class="italics primary-color">with enthusiasm for learning!</p>
 
 
-               </div>
-            <div class="text-change">
-                      <p class="italics primary-color">since 2021</p>
-                      <h2 class="name">Junior Front-End Developer </h2>
-                      <p class="text-block space">This year I have decided to change my life and become a Front End Developer. Currently, I am on the path to my goal. I don't have commercial experience yet. Though for the past five years, I have got a lot of practice from other spheres, and this will help me in my future job. I am ready to implement my ideas and help with improving yours.</p>
-                  </div>
-                 
-              </div>
-          </section>
-          <nav>
-            <button id="btn-menu" onclick="toggleMenu()" class="btn-open">Menu</button>
-              <button class="btn-close"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 25 25">
-    <path fill="#75715E" fill-rule="evenodd" d="M12.5 10.142L2.358 0 0 2.358 10.14 12.5 0 22.641 2.358 25 12.5 14.858 22.64 25 25 22.64 14.858 12.5 25 2.358 22.64 0 12.5 10.142z" clip-rule="evenodd"/>
-</svg>
-</button>
-              <ul class="sidebar">
-                  <li>
-                        <a target="_blank" href="http://linkedin.com/in/liza-romaniuk-9bb598b0"><svg class="icon" width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM16.9605 19.8778H11.5216V36.2196H16.9605V19.8778ZM17.3188 14.8227C17.2835 13.2204 16.1377 12 14.277 12C12.4164 12 11.2 13.2204 11.2 14.8227C11.2 16.3918 12.3805 17.6473 14.2064 17.6473H14.2412C16.1377 17.6473 17.3188 16.3918 17.3188 14.8227ZM36.5754 26.8497C36.5754 21.8303 33.8922 19.4941 30.3131 19.4941C27.4254 19.4941 26.1326 21.0802 25.4107 22.1929V19.8783H19.9711C20.0428 21.4117 19.9711 36.22 19.9711 36.22H25.4107V27.0934C25.4107 26.605 25.446 26.1178 25.5898 25.7681C25.9829 24.7924 26.8779 23.7822 28.3805 23.7822C30.3494 23.7822 31.1365 25.2807 31.1365 27.4767V36.2196H36.5752L36.5754 26.8497Z"/>
-</svg>
-</a>
-                  </li>
-                  <li>
-                      <a target="_blank" href="https://www.instagram.com/ph.mob_art/"><svg class="icon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg></a>
-                  </li>
-                  <li>
-                      <a target="_blank" href="https://github.com/itliza"><svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      width="24" height="24" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;"
-                      xml:space="preserve">
-                      <g>
-                      <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+        </div>
+        <div class="text-change">
+          <p class="italics primary-color">since 2021</p>
+          <h2 class="name">Junior Front-End Developer </h2>
+          <p class="text-block space">I decided to become a Front End Developer and now I'm working on it. I’ve got some
+            commercial experience at freelance projects and for 5 years I have been improving my skills in other spheres
+            which will help me in my future job.</p>
+        </div>
+
+      </div>
+    </section>
+    <nav>
+      <button id="btn-menu" onclick="toggleMenu()" class="btn-open">Menu</button>
+      <button class="btn-close"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none"
+          viewBox="0 0 25 25">
+          <path fill="#75715E" fill-rule="evenodd"
+            d="M12.5 10.142L2.358 0 0 2.358 10.14 12.5 0 22.641 2.358 25 12.5 14.858 22.64 25 25 22.64 14.858 12.5 25 2.358 22.64 0 12.5 10.142z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+      <ul class="sidebar">
+        <li>
+          <a target="_blank" href="http://linkedin.com/in/liza-romaniuk-9bb598b0"><svg class="icon" width="24"
+              height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM16.9605 19.8778H11.5216V36.2196H16.9605V19.8778ZM17.3188 14.8227C17.2835 13.2204 16.1377 12 14.277 12C12.4164 12 11.2 13.2204 11.2 14.8227C11.2 16.3918 12.3805 17.6473 14.2064 17.6473H14.2412C16.1377 17.6473 17.3188 16.3918 17.3188 14.8227ZM36.5754 26.8497C36.5754 21.8303 33.8922 19.4941 30.3131 19.4941C27.4254 19.4941 26.1326 21.0802 25.4107 22.1929V19.8783H19.9711C20.0428 21.4117 19.9711 36.22 19.9711 36.22H25.4107V27.0934C25.4107 26.605 25.446 26.1178 25.5898 25.7681C25.9829 24.7924 26.8779 23.7822 28.3805 23.7822C30.3494 23.7822 31.1365 25.2807 31.1365 27.4767V36.2196H36.5752L36.5754 26.8497Z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/ph.mob_art/"><svg class="icon" height="24"
+              viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0" />
+              <path
+                d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0" />
+              <path
+                d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0" />
+            </svg></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/itliza"><svg class="icon" version="1.1" id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24"
+              height="24" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;"
+              xml:space="preserve">
+              <g>
+                <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
                         c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
                         c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
                         c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
@@ -88,86 +107,27 @@
                         c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
                         c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
                         c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
-                        C438.536,184.851,428.728,148.168,409.132,114.573z"/>
-                        </g>
-                        </svg>
-                    </a>
-                  </li>
-              </ul>
-              <a class="up" href="#up">
-<svg class="icon" width="24" height="24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="31.332px" height="31.332px" viewBox="0 0 31.332 31.332" style="enable-background:new 0 0 31.332 31.332;"
-   xml:space="preserve">
-<g>
-  <path d="M23.045,13.236c0.781,0.781,0.781,2.047,0,2.829c-0.779,0.781-2.047,0.781-2.828,0l-2.551-2.55v9.132c0,1.104-0.896,2-2,2
+                        C438.536,184.851,428.728,148.168,409.132,114.573z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <a class="up" href="#up">
+        <svg class="icon" width="24" height="24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.332px" height="31.332px"
+          viewBox="0 0 31.332 31.332" style="enable-background:new 0 0 31.332 31.332;" xml:space="preserve">
+          <g>
+            <path d="M23.045,13.236c0.781,0.781,0.781,2.047,0,2.829c-0.779,0.781-2.047,0.781-2.828,0l-2.551-2.55v9.132c0,1.104-0.896,2-2,2
     c-1.104,0-2-0.896-2-2v-9.132l-2.554,2.552c-0.391,0.391-0.901,0.586-1.414,0.586c-0.512,0-1.022-0.195-1.413-0.586
     c-0.781-0.781-0.781-2.047,0-2.828l7.381-7.381L23.045,13.236z M31.332,15.666c0,8.639-7.027,15.666-15.666,15.666
     C7.026,31.332,0,24.305,0,15.666C0,7.028,7.026,0,15.666,0C24.305,0,31.332,7.028,31.332,15.666z M27.332,15.666
     C27.332,9.233,22.1,4,15.666,4C9.233,4,4,9.233,4,15.666C4,22.1,9.233,27.332,15.666,27.332C22.1,27.332,27.332,22.1,27.332,15.666
-    z"/>
-</g>
-</svg>
-</a>
-          </nav>
-              <section class="parallax"></section>
-              <section><a name="skills"></a>
-                <div class="primary-background"></a>
-                  <span class="title">SKILLS</span>
-                  <div class="gap">
-                  <div class="string">
-                    <span class="skill">JavaScript</span>
-                    <div class="back js-skill"></div>
-                  </div>
-                  <div class="string">
-                    <span class="skill">HTML/CSS</span>
-                    <div class="back html-skill"></div>
-                  </div>
-                  <div class="string">
-                    <span class="skill">Responsive layout</span>
-                    <div class="back resp-skill"></div>
-                  </div>
-                  <div class="string">
-                    <span class="skill">GIT</span>
-                    <div class="back git-skill"></div>
-                  </div>
-                  <div class="string">
-                    <span class="skill">English</span>
-                    <div class="back english-skill"></div>
-                  </div>
-                </div>
-              </section>
-
-              <section class="parallax projects-img"></section>
-
-              <section class="projects"><a name="projects"></a>
-  <div class="primary-background secondary-background">
-    <span class="title title-color">PROJECTS</span>
-    <div class="gap"><h3 class="name color-text">Mylib</h3>
-      <p class="text-block color-text space">Component library with html and css code examples</p>
-      <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/mylib/">
-        <span class="link-text">demo</span>
-        <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_228_262)">
-          <path d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z" fill="#F92672"/>
-          </g><defs>
-          <clipPath id="clip0_228_262">
-          <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)"/>
-          </clipPath>
-          </defs>
+    z" />
+          </g>
         </svg>
       </a>
-      <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/mylib">
-        <span class="link-text">github</span>
-        <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_228_262)">
-          <path d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z" fill="#F92672"/>
-          </g><defs>
-          <clipPath id="clip0_228_262">
-          <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)"/>
-          </clipPath>
-          </defs>
-        </svg>
-      </a>
+<<<<<<< HEAD
     </div>
     <div class="gap"><h3 class="name color-text">Pie-diller</h3>
       <p class="text-block color-text no-gap space">Responsive landing page for bakery</p>
@@ -222,8 +182,273 @@
                       <a href="tel:+380993124627" class="italics">+38(099)-312-46-27</a>
                   </div>
               </footer>
+=======
+    </nav>
+    <section class="parallax"></section>
+    <section><a name="skills"></a>
+      <div class="primary-background"></a>
+        <span class="title">SKILLS</span>
+        <div class="gap">
+          <div class="string">
+            <span class="skill">JavaScript</span>
+            <div class="back js-skill"></div>
+          </div>
+          <div class="string">
+            <span class="skill">HTML/CSS</span>
+            <div class="back html-skill"></div>
+          </div>
+          <div class="string">
+            <span class="skill">Responsive layout</span>
+            <div class="back resp-skill"></div>
+          </div>
+          <div class="string">
+            <span class="skill">GIT</span>
+            <div class="back git-skill"></div>
+          </div>
+          <div class="string">
+            <span class="skill">English</span>
+            <div class="back english-skill"></div>
+          </div>
         </div>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/themes.js"></script>
-    </body>
+    </section>
+
+    <section class="parallax projects-img"></section>
+
+    <section class="projects"><a name="projects"></a>
+      <div class="primary-background secondary-background">
+        <span class="title title-color">PROJECTS</span>
+
+        <p class="text-block color-text space">You can see list of my projects on
+
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza?tab=repositories">
+            <span class="link-text">GitHub</span>
+          </a>
+
+          page
+        </p>
+
+
+        <div class="gap">
+          <h3 class="name color-text">Online Store</h3>
+          <p class="text-block color-text no-gap space">School project. Practice with arrays, objects, etc.</p>
+          <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/creditCalculator/">
+            <span class="link-text">demo</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/creditCalculator">
+            <span class="link-text">github</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+
+
+        <div class="gap">
+          <h3 class="name color-text">Wishlist</h3>
+          <p class="text-block color-text space">Useful landing page with timer practising</p>
+          <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/wish_list/">
+            <span class="link-text">demo</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/wish_list">
+            <span class="link-text">github</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+
+        <div class="gap">
+          <h3 class="name color-text">Taxes Calculator</h3>
+          <p class="text-block color-text space">Application wich helps to check information about taxes for Private
+            Entrepreneur (ФОП) and calculate it. Inspired by DIA.</p>
+          <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/taxesCalculator/">
+            <span class="link-text">demo</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/taxesCalculator">
+            <span class="link-text">github</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+
+        <div class="gap">
+          <h3 class="name color-text">To Do List</h3>
+          <p class="text-block color-text space">App for note your plans</p>
+          <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/todolist/">
+            <span class="link-text">demo</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/todolist">
+            <span class="link-text">github</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+
+        <div class="gap">
+          <h3 class="name color-text">Mylib</h3>
+          <p class="text-block color-text space">Component library with html and css code examples</p>
+          <a target="_blank" class="italics primary-color link" href="https://itliza.github.io/mylib/">
+            <span class="link-text">demo</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a target="_blank" class="italics primary-color link" href="https://github.com/itliza/mylib">
+            <span class="link-text">github</span>
+            <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_228_262)">
+                <path
+                  d="M11.5982 0.0155956C11.7054 -0.0104447 11.8214 -2.68221e-05 11.9107 0.0416359L15.3393 1.86455C15.3929 1.89581 15.4286 1.93747 15.4286 1.98434C15.4286 2.03122 15.3929 2.0781 15.3393 2.10934L11.9107 3.9583C11.8214 3.99996 11.7054 4.01038 11.5982 3.98434C11.5 3.9583 11.4286 3.901 11.4286 3.8333V2.66663L0.285719 2.66663C0.125 2.66663 0 2.59372 0 2.49997L0 1.49997C0 1.40622 0.125 1.3333 0.285719 1.3333L11.4286 1.3333V0.166633C11.4286 0.0989211 11.4911 0.0416359 11.5982 0.0155956Z"
+                  fill="#F92672" />
+              </g>
+              <defs>
+                <clipPath id="clip0_228_262">
+                  <rect width="4" height="16" fill="white" transform="translate(0 4) rotate(-90)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+>>>>>>> 9570c182e0462924853dae096f8b2174adf2c176
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+    <section><a name="education"></a>
+      <div class="primary-background">
+        <span class="title">EDUCATION</span>
+        <div class="gap">
+          <span class="italics primary-color no-gap">2011 - 2017</span>
+          <h3 class="name">National Aerospace University KhAI</h3>
+          <p class="text-block">Master Degree of Research Engineer in Computerised Systems and Automation</p>
+        </div>
+        <div class="gap">
+          <span class="italics primary-color no-gap">march 2021 - august 2021</span>
+          <p class="text-block">Individual front-end basic mentorship</p>
+        </div>
+        <div class="gap">
+          <span class="italics primary-color no-gap">august 2021 - december 2021</span>
+          <h3 class="name">IT school Hillel</h3>
+          <p class="text-block">Front-end pro course</p>
+          <div class="space"><a class="italics primary-color space" href="#">certificate</a></div>
+          <div class="gap">
+            <span class="italics primary-color no-gap">may 2022 - september 2022</span>
+            <h3 class="name">IT course "Can She Code"</h3>
+            <p class="text-block">Java Script</p>
+            <div class="space"><a class="italics primary-color space" href="">certificate later :)</a></div>
+          </div>
+        </div>
+    </section>
+    <footer class="footer gap">
+      <div>
+        <p class="italics primary-color">For hiring, please</p>
+        <a class="name" href="mailto:elizaveta.romaniuk@gmail.com">email me</a>
+      </div>
+      <div>
+        <a href="tel:+380993124627" class="italics">+38(099)-312-46-27</a>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/themes.js"></script>
+</body>
+
 </html>
